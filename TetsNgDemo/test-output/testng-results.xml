@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-25T13:05:58 IST" name="Suite" finished-at="2019-12-25T13:06:29 IST" duration-ms="30795">
+    <groups>
+      <group name="Contac">
+        <method signature="TestngD.contactUs(java.lang.String)[pri:1, instance:testNG.TestngD@c03cf28]" name="contactUs" class="testNG.TestngD"/>
+      </group> <!-- Contac -->
+      <group name="Da">
+        <method signature="TestngD.contactUs(java.lang.String)[pri:1, instance:testNG.TestngD@c03cf28]" name="contactUs" class="testNG.TestngD"/>
+      </group> <!-- Da -->
+    </groups>
+    <test started-at="2019-12-25T13:05:58 IST" name="Test" finished-at="2019-12-25T13:06:29 IST" duration-ms="30795">
+      <class name="testNG.TestngD">
+        <test-method is-config="true" signature="drivermethod()[pri:0, instance:testNG.TestngD@c03cf28]" started-at="2019-12-25T13:05:58 IST" name="drivermethod" finished-at="2019-12-25T13:06:20 IST" duration-ms="21881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drivermethod -->
+        <test-method signature="contactUs(java.lang.String)[pri:1, instance:testNG.TestngD@c03cf28]" started-at="2019-12-25T13:06:20 IST" name="contactUs" description="Verfiy Contact" data-provider="data" finished-at="2019-12-25T13:06:24 IST" duration-ms="4083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdifuhu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method signature="contactUs(java.lang.String)[pri:1, instance:testNG.TestngD@c03cf28]" started-at="2019-12-25T13:06:24 IST" name="contactUs" description="Verfiy Contact" data-provider="data" finished-at="2019-12-25T13:06:26 IST" duration-ms="2106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdiufhiuds]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method signature="contactUs(java.lang.String)[pri:1, instance:testNG.TestngD@c03cf28]" started-at="2019-12-25T13:06:27 IST" name="contactUs" description="Verfiy Contact" data-provider="data" finished-at="2019-12-25T13:06:28 IST" duration-ms="1876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[686]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:testNG.TestngD@c03cf28]" started-at="2019-12-25T13:06:28 IST" name="closeBroswer" finished-at="2019-12-25T13:06:29 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+      </class> <!-- testNG.TestngD -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
